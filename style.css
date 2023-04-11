@@ -1,0 +1,55 @@
+*{box-sizing:border-box;}
+
+body,
+html{padding: 0;margin: 0;}
+
+body {
+    background: #eeeeee;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    margin: 0;
+} 
+
+a{color:#ffffff; text-decoration: none; font-size: 100px;}
+
+img{max width}
+
+h2{color: white; font-size: 200px; text-align: center; background: #ffc352; padding: 5px;}
+
+h3{font-size: 200px;color: rgb(255, 255, 255); text-align: left;}
+
+p{color: black; font-size: 120px;}
+
+.container{padding: 25px;}
+
+header{background: #ffc352; padding: 25px 15px 5px 15px; width: 100%;} 
+
+.logo{text-align: center;width: 100%;display: block;font-size: 200px; color: #ffffff;}
+
+section{padding: 30px;}
+
+section.hero {
+    background-color: #ffc352;
+    padding: 20px 20px 0 20px 20px;
+    border-radius: 10px 10px 0 0;
+    margin-top: 40px;}
+
+.grid{background:#ffc352;}
+.col-33{border: 30px white solid;}
+
+section.italia{margin:  5px; font-size: 18px; }
+section.america{margin: 5 5px; font-size: 18px}
+section.cina{margin: 10 10px; font-size: 18px}
+section.giappone{margin: 10 10px; font-size: 18px}
+section.brasile{margin: 10 10px; font-size: 18px}
+section.turchia{margin: 10 10px; font-size: 18px}
+
+#menu-principale{ text-align: center}
+#menu-principale li{display: inline; }
+#menu-principale li a{margin: 10px;}
+
+#navigazione {text-align-last: center;}
+#navigazione li{display: inline;}
+#navigazione li a{margin: 30px;}
+
+footer{background: #ffc352; padding: 10px; text-align: center;}
+footer p{color: #ffffff; font-size: 100px;}
